@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>chungjungone</title>
+    <link rel="shortcut icon" href="images/faviconV2.png" type="image/x-icon" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="css/brand.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 624px;
+      }
+      body {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+      .mySwiper {
+        position: relative;
+        width: 100%;
+        height: 624px;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .swiper-slide img {
+        width: 100%;
+        height: 624px;
+        object-fit: cover;
+      }
+      .swiper-slide .slideTxt {
+        position: absolute;
+        left: 200px;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: left;
+        z-index: 10;
+      }
+      /* .swiper-slide .slideBox .moreBox {
+        position: relative;
+        background: url(images/ico_radius_more_w.svg) no-repeat;
+        width: 135px;
+        height: 42px;
+        margin-top: 30px;
+      } */
+    </style>
+    <script src="js/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <div class="top">
+          <div class="topInner">
+            <div class="logo">
+              <img src="images/logo.svg" alt="logo" />
+            </div>
+            <ul class="menu">
+              <li><a href="#">브랜드</a></li>
+              <li><a href="#">제품</a></li>
+              <li><a href="#">뉴스</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
+            <div class="site">
+              <p>청정원</p>
+              <ul class="SiteFamily SiteFamilySelect">
+                <li>청정원</li>
+                <li>종가</li>
+                <li>대상</li>
+                <li>정원e샵</li>
+                <li>대상웰라이프</li>
+                <li>오푸드 글로벌</li>
+                <li>종가 글로벌</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <div class="lnb_wrap">
+            <div class="lnb">
+              <div class="sub">
+                <ul>
+                  <li>
+                    <a href="brand1.html"
+                      ><img src="images/nav_cjw-1.png" alt="img"
+                    /></a>
+                    <span>청정원</span>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/nav_homeings-1.png" alt="img"
+                    /></a>
+                    <span>호밍스</span>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/nav_anjuya-1.png" alt="img"
+                    /></a>
+                    <span>안주야</span>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/nav_sunchang-1.png" alt="img"
+                    /></a>
+                    <span>순창</span>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/nav_curryqueen-1.png" alt="img"
+                    /></a>
+                    <span>카레여왕</span>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/nav_hatdam-1.png" alt="img"
+                    /></a>
+                    <span>햇살담은</span>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/nav_hongcho-1-1.png" alt="img"
+                    /></a>
+                    <span>홍초</span>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/nav_tasteteach-1.png" alt="img"
+                    /></a>
+                    <span>맛선생</span>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/nav_natural-1.png" alt="img"
+                    /></a>
+                    <span>순수천혜염</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/BrandTopBannerBg15-min-min.png" alt="slideImg" />
+          <div class="slideTxt">
+            <div class="txtBox">
+              <h1>청정원</h1>
+              <p>
+                정원이의 신비로운<br />
+                비밀정원
+              </p>
+              <div class="moreBox">
+                <img src="images/ico_radius_more_w.svg" alt="more" />
+                <p>more view</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/청정원-min.png" alt="slideImg" />
+          <div class="slideTxt">
+            <div class="txtBox">
+              <h1>청정원</h1>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/chungjungone_bg_1-min.png" />
+          <div class="slideTxt">
+            <div class="txtBox">
+              <h1>청정원</h1>
+              <h3>오늘을 더 맛있게</h3>
+              <p>
+                음식을 둘러싼 당신의 일상을 더욱 맛있고 풍요롭게 만드는<br />
+                라이프푸드(Life Food)브랜드, 청정원 입니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <section>
+      <div class="brandintro">
+        <div class="imgBox">
+          <img src="images/img-BrandBg-min.png" alt="imgBox" />
+        </div>
+        <div class="txtBox">
+          <p>브랜드 소개</p>
+          <h1>
+            더 나은 맛,<br />
+            더 맛있는 인생
+          </h1>
+          <p>The Better Tasting Life</p>
+        </div>
+      </div>
+      <div class="brandinfo">
+        <div class="infoBox">
+          <h1>
+            생활의 기본이지만<br />
+            전부이기도 한
+            <span>[</span>
+            식(⾷)
+            <span>]</span>
+          </h1>
+          <p>
+            청정원은 늘 맛내기에 진심을 담고 더 나은 맛을 찾기 위해 게을리 하지
+            않습니다. <br />
+            하지만, 그저 맛있는 음식을 만드는데 만족하지 않습니다.
+          </p>
+          <p>
+            당신의 일상을 관찰하며 습관과 취향을 이해하고, 소비의 고민을
+            공감하며 정성을 다해 만든 진심 먹거리
+          </p>
+          <p>
+            하나하나의 제품에서 맛을 온전히 느끼게 하고 음식을 둘러싼 당신의
+            삶이 더 맛있어지도록 함께 발맞춰가는 라이프푸드[Life Food] 브랜드,
+            청정원입니다.
+          </p>
+        </div>
+        <div class="infoBox">
+          <h1>
+            <span>청</span>신선하고 깨끗한 자연을<br />
+            <span>정</span>정성스럽게<br />
+            <span>원</span>담다
+          </h1>
+        </div>
+        <div class="infoBox">
+          <p>
+            신선하고 깨끗한 자연을 정성스럽게 담아서 가족을 위한<br />
+            건강한 식탁을 제안하겠다는 의지를 담아 1996년에 런칭 하였습니다.<br />
+            발효기술을 비롯해 건강한 조리과학 연구로 식문화의 발전을 이끌어온
+            청정원은<br />
+            신선하고 깨끗한 자연의 원료 그대로를 단순히 제공하는 것이 아니라,<br />
+            원료가 지닌 고유의 성분과 특징을 체계적으로 분석하여<br />
+            맛과 영양이 가득한 요리로 풍요롭게 완성시키는 대한민국 대표 종합
+            식품 전문 브랜드입니다.
+          </p>
+          <img src="images/img-logo-history.png" alt="history" />
+        </div>
+        <div class="infoBox box4">
+          <h1>브랜드 슬로건</h1>
+          <h3>오늘을 더 <span>[</span>맛있게<span>]</span></h3>
+          <p>
+            청정원의 브랜드 슬로건은 즐거운 식사를 통해 더 기분 좋은 일상을 보낼
+            수 있게 한다는<br />
+            의미를 담은 ‘The Better Tasting Life’ 를 친숙한 소비자 언어로
+            표현합니다.
+          </p>
+          <p>
+            청정원은 레시피 및 요리하는 환경과 문화를 깊이 이해하고 식생활
+            전반에 걸쳐<br />
+            맛으로 정성스럽게 삶을 채워나가는 ‘더 나은 맛, 더 맛있는 인생<br />
+            The Better Tasting Life’ 브랜드가 되고자 합니다.
+          </p>
+          <p>
+            어제보다 오늘 더 맛있는 가치를 담아내고자 하는 정신은<br />
+            청정원이 새롭게 도전하는 고객과의 약속입니다.
+          </p>
+        </div>
+      </div>
+      <div class="bi">
+        <div class="bitit">
+          <h2>BI소개</h2>
+        </div>
+        <div class="biinfo">
+          <p>Logo</p>
+          <div class="biBox">
+            <div class="img">
+              <img src="images/logo-brandcjw-min.png" alt="bi" />
+            </div>
+            <div class="info">
+              <p class="tit">청정원의 대표 BI</p>
+              <p>
+                소재 및 소스, 편의식<br />
+                제품까지 다수 포함
+              </p>
+            </div>
+            <ul class="down">
+              <li><a href="#">AI 파일 다운로드</a></li>
+              <li><a href="#">JPG 파일 다운로드</a></li>
+            </ul>
+          </div>
+          <div class="biBox">
+            <div class="img">
+              <img src="images/logo-brandcjw-r-min-1.png" alt="bi" />
+            </div>
+            <div class="info">
+              <p class="tit">전통 장류 라인브랜드의 보증 역할</p>
+              <p>순창, 햇살 담은</p>
+            </div>
+            <ul class="down">
+              <li><a href="#">AI 파일 다운로드</a></li>
+              <li><a href="#">JPG 파일 다운로드</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="logoImg">
+          <img src="images/img-CJWLogo-min.png" alt="logoImg" />
+        </div>
+        <div class="identityBox">
+          <ul>
+            <li>
+              <h3>Connecting</h3>
+              <p>
+                음식을 통해 사람과 사람을<br />
+                이어주는 맛있는 교감
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h3>Caring</h3>
+              <p>고객에 대한 지속적인 관심</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h3>Creative</h3>
+              <p>
+                새로운 식문화를 끊임없이<br />
+                제안하는 창의성
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="identitycontent">
+          <div class="txt">
+            <p>
+              청정원의 심볼은 청정원의 C가 확장하여 고객이 느끼는 음식, 그리고
+              삶 속의 ‘맛’을 채우고자 하는<br />
+              청정원의 마음을 오롯한 원의 형태로 표현하였습니다.
+            </p>
+            <p>
+              또한, 심볼 속의 숨은 나뭇잎에는 건강한 맛을 실현하기 위한 청정원의
+              오리진인 ‘깨끗함‘과 ‘정성‘을<br />
+              Blue 컬러로 상징하고 고객의 삶 속에 감동으로 스며드는 청정원의
+              진정성은 Gradation Yellow<br />
+              컬러로 담았습니다.
+            </p>
+            <p>
+              청정원의 블루컬러 BI를 기본으로 사용합니다.<br />
+              단, 오랜 시간의 발효 노하우를 가진 장류 제품에 한하여 계승발전
+              시킨다는 측면에서 순창,<br />
+              햇살담은과 같은 제품 라인브랜드 와 결합시 레드컬러 BI를
+              적용합니다.
+            </p>
+          </div>
+        </div>
+        <div class="color">
+          <p>Color</p>
+          <div class="colorinner">
+            <div class="inner">
+              <div class="blue">
+                <div class="blueBar"></div>
+                <h3>Fresh Blue</h3>
+                <p>
+                  Pantone 312c <br />
+                  C85 Y15R0 <br />
+                  G182 B214
+                </p>
+              </div>
+              <div class="yellow">
+                <div class="yellowBar"></div>
+                <h3>True Yellow</h3>
+                <p>
+                  Pantone 101c <br />
+                  Y90<br />
+                  R255 G244 B83
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="font">
+          <h1>청정원 서체</h1>
+          <div class="fontitem">
+            <div class="fontinner">
+              <div class="fonttit">
+                <h3>청정원 고딕체</h3>
+                <p>
+                  청정원 고딕체는 헤드라인에 적용하여<br />
+                  주목성을 높이기에 적합한 전용 서체입니다.
+                </p>
+                <ul class="fontdown">
+                  <li><a href="#">윈도우용</a></li>
+                  <li><a href="#">맥용</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="fontinnersub">
+              <p>청정원 고딕R</p>
+              <div class="fontimg">
+                <img src="images/img-Gothic01.png" alt="fontimg" />
+              </div>
+            </div>
+            <div class="fontinnersub">
+              <p>청정원 고딕B</p>
+              <div class="fontimg">
+                <img src="images/img-Gothic02.png" alt="fontimg" />
+              </div>
+            </div>
+          </div>
+          <div class="fontitem">
+            <div class="fontinner">
+              <div class="fonttit">
+                <h3>청정원 명조체</h3>
+                <p>
+                  청정원 명조체는 친숙하고 부드러운<br />
+                  이미지를 담은 전용 서체입니다.
+                </p>
+                <ul class="fontdown">
+                  <li><a href="#">윈도우용</a></li>
+                  <li><a href="#">맥용</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="fontinnersub">
+              <p>청정원 명조R</p>
+              <div class="fontimg">
+                <img src="images/img-Myungjo01.png" alt="fontimg" />
+              </div>
+            </div>
+            <div class="fontinnersub">
+              <p>청정원 명조B</p>
+              <div class="fontimg">
+                <img src="images/img-Myungjo02.png" alt="fontimg" />
+              </div>
+            </div>
+          </div>
+          <div class="fontnoti">
+            <ul>
+              <li>
+                청정원 서체의 지적재산권을 포함한 모든 권리는 ‘대상주식회사’에
+                있습니다.
+              </li>
+              <li>
+                서체의 저작권은 당사 청정원 브랜드 소유로 외부에 무단배포하거나
+                상업적 용도로 사용할 경우 제재가 불가피하오니 유의해주시기
+                바랍니다
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="prdt">
+        <h1>제품 리스트</h1>
+      </div>
+      <!-- Swiper -->
+      <div #swiperRef="" class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/prdt_1.jpg" alt="prdt" />
+            <div class="prdttxt">
+              <p>청정원</p>
+              <h3>알리오올리오올리브오일파스타소스</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/prdt_2.jpg" alt="prdt" />
+            <div class="prdttxt">
+              <p>청정원</p>
+              <h3>볼로네즈토마토미트파스타소스</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/prdt_3.jpg" alt="prdt" />
+            <div class="prdttxt">
+              <p>청정원</p>
+              <h3>명란 크림 파스타소스</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/prdt_4.jpg" alt="prdt" />
+            <div class="prdttxt">
+              <p>청정원</p>
+              <h3>머쉬룸투움바 파스타소스</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/prdt_5.jpg" alt="prdt" />
+            <div class="prdttxt">
+              <p>청정원</p>
+              <h3>조개&화이트와인 봉골레파스타소스</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/prdt_6.jpg" alt="prdt" />
+            <div class="prdttxt">
+              <p>청정원</p>
+              <h3>찍먹 레몬크림소스</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/prdt_7.jpg" alt="prdt" />
+            <div class="prdttxt">
+              <p>청정원</p>
+              <h3>찍먹 맵닭치즈소스</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/prdt_8.jpg" alt="prdt" />
+            <div class="prdttxt">
+              <p>청정원</p>
+              <h3>찍먹 오지치즈소스</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/prdt_9.jpg" alt="prdt" />
+            <div class="prdttxt">
+              <p>청정원</p>
+              <h3>할라피뇨소시지랑떡이랑</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/prdt_10.jpg" alt="prdt" />
+            <div class="prdttxt">
+              <p>청정원</p>
+              <h3>소시지랑떡이랑</h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="prdtline">
+        <h1>청정원 라인 브랜드</h1>
+        <div class="list">
+          <ul>
+            <li>
+              <img src="images/img-CJWbrand01.png" alt="img" />
+              <span
+                ><img src="images/img-CJWBrand-logo01.png" alt="img"
+              /></span>
+              <div class="over">
+                <div class="inner">
+                  <p>
+                    만족을 <br />
+                    요리하다
+                  </p>
+                  <span><img src="images/ico_more.svg" alt="img" /></span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="images/img-CJWbrand02.png" alt="img" />
+              <span
+                ><img src="images/img-CJWBrand-logo02.png" alt="img"
+              /></span>
+              <div class="over">
+                <div class="inner">
+                  <p>
+                    안주야를 만나는 순간, <br />
+                    모든 것이 즐겁다.
+                  </p>
+                  <span><img src="images/ico_more.svg" alt="img" /></span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="images/img-CJWbrand03.png" alt="img" />
+              <span
+                ><img src="images/img-CJWBrand-logo03.png" alt="img"
+              /></span>
+              <div class="over">
+                <div class="inner">
+                  <p>
+                    맛있는 <br />
+                    발효숙성
+                  </p>
+                  <span><img src="images/ico_more.svg" alt="img" /></span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="images/img-CJWbrand04.png" alt="img" />
+              <span
+                ><img src="images/img-CJWBrand-logo04.png" alt="img"
+              /></span>
+              <div class="over">
+                <div class="inner">
+                  <p>
+                    여왕의 방식 <br />
+                    프리미엄 카레
+                  </p>
+                  <span><img src="images/ico_more.svg" alt="img" /></span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="images/img-CJWbrand05.png" alt="img" />
+              <span
+                ><img src="images/img-CJWBrand-logo05.png" alt="img"
+              /></span>
+              <div class="over">
+                <div class="inner">
+                  <p>
+                    나를 위한<br />
+                    건강한 일상음료
+                  </p>
+                  <span><img src="images/ico_more.svg" alt="img" /></span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="images/img-CJWbrand06.png" alt="img" />
+              <span
+                ><img src="images/img-CJWBrand-logo06.png" alt="img"
+              /></span>
+              <div class="over">
+                <div class="inner">
+                  <p>
+                    두 번 달여 <br />
+                    더 진한 진간장
+                  </p>
+                  <span><img src="images/ico_more.svg" alt="img" /></span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="images/img-CJWbrand07.png" alt="img" />
+              <span
+                ><img src="images/img-CJWBrand-logo07.png" alt="img"
+              /></span>
+              <div class="over">
+                <div class="inner">
+                  <p>
+                    맛있는 <br />
+                    자연재료
+                  </p>
+                  <span><img src="images/ico_more.svg" alt="img" /></span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="images/img-CJWbrand08.png" alt="img" />
+              <span
+                ><img src="images/img-CJWBrand-logo08.png" alt="img"
+              /></span>
+              <div class="over">
+                <div class="inner">
+                  <p>
+                    프리미엄 <br />
+                    천일염
+                  </p>
+                  <span><img src="images/ico_more.svg" alt="img" /></span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="socialsec">
+      <div class="social">
+        <h1>SOCIAL</h1>
+        <div class="socialBox">
+          <div class="snsimg">
+            <svg
+              class="sbi_new_logo fa-instagram fa-w-14"
+              aria-hidden="true"
+              data-fa-processed=""
+              data-prefix="fab"
+              data-icon="instagram"
+              role="img"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="currentColor"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              ></path>
+            </svg>
+          </div>
+          <div class="snstxt">
+            <h3>chungjungone</h3>
+            <span>
+              <svg
+                class="svg-inline--fa fa-image fa-w-16"
+                aria-hidden="true"
+                data-fa-processed=""
+                data-prefix="far"
+                data-icon="image"
+                role="presentation"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M464 448H48c-26.51 0-48-21.49-48-48V112c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v288c0 26.51-21.49 48-48 48zM112 120c-30.928 0-56 25.072-56 56s25.072 56 56 56 56-25.072 56-56-25.072-56-56-56zM64 384h384V272l-87.515-87.515c-4.686-4.686-12.284-4.686-16.971 0L208 320l-55.515-55.515c-4.686-4.686-12.284-4.686-16.971 0L64 336v48z"
+                ></path>
+              </svg>
+              769
+            </span>
+          </div>
+        </div>
+      </div>
+      <div #swiperRef="" class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/social1.jpg" alt="social" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/social2.jpg" alt="social" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/social3.jpg" alt="social" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/social4.jpg" alt="social" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/social5.jpg" alt="social" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/social6.jpg" alt="social" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/social7.jpg" alt="social" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/social8.jpg" alt="social" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/social9.jpg" alt="social" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/social10.jpg" alt="social" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <footer>
+      <ul class="info">
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이메일무단수집거부</a></li>
+        <li><a href="#">사이트맵</a></li>
+        <li>
+          <a href="#"><img src="images/ccm.png" alt="ccm" /></a>
+        </li>
+      </ul>
+      <div class="footerLogo">
+        <a href="#"><img src="images/logo.svg" alt="logo" /></a>
+      </div>
+      <ul class="infoList">
+        <li>대상(주) | 사업자 등록번호:109-81-14886</li>
+        <li>대표이사:임정배 | 주소:서울시 종로구 창경궁로 120(인의동)</li>
+        <li>제품관련 고객상담:080-019-9119</li>
+        <li>상담시간:평일 09:00~17:30 (토, 일요일, 공휴일 휴무)</li>
+        <li>개인정보 보호책임자:윤한권</li>
+      </ul>
+      <ul class="sns">
+        <li>
+          <a href="#"><img src="images/ico_ft_facebook.svg" alt="sns" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/ico_ft_youtube.svg" alt="sns" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/ico_ft_blog.svg" alt="sns" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/ico_ft_instargram.svg" alt="sns" /></a>
+        </li>
+      </ul>
+      <div class="copy">
+        <p>COPYRIGHT 청정원. ALL RIGHTS RESERVED.</p>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="js/brsnd1.js"></script>
+    <!-- Initialize Swiper -->
+  </body>
+</html>
