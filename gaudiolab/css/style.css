@@ -1,0 +1,158 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 100%;
+  max-width: 1920px;
+}
+section.intro {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  position: relative;
+}
+section.intro img {
+  width: 100%;
+}
+.content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content .pad {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+.content .pad > img {
+  width: 101%;
+  height: 101%;
+}
+.content .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.content .video > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.intro_text > div {
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: #fff;
+}
+.intro_text > div.intro_text1 {
+  font-size: 70px;
+}
+.intro_text > div.intro_text2 {
+  opacity: 0;
+}
+.intro_text > div.intro_text2 > h1 {
+  font-size: 48px;
+}
+.intro_text > div.intro_text2 > p {
+  font-size: 18px;
+}
+.soundBox {
+  width: 100%;
+  text-align: center;
+}
+#parallax {
+  overflow: hidden;
+}
+.item {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.item_num {
+  position: absolute;
+  top: 8%;
+  font-size: 2vw;
+  font-weight: bold;
+  line-height: 1;
+  z-index: 10;
+}
+.item_title {
+  position: absolute;
+  top: 15%;
+  font-size: 1vw;
+  text-align: center;
+}
+.main {
+  position: relative;
+}
+.btn {
+  width: 1147px;
+  height: 337px;
+  margin: 0 auto;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  margin-top: 20px;
+}
+.contentBox {
+  width: 255px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+  margin: 10px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 56px;
+}
+.contentBox:hover {
+  background: #fff;
+  color: #19bfff;
+  transition: 1s;
+}
+.contentBox > img {
+  width: 255px;
+  object-fit: cover;
+}
+.contentBox:nth-child(2) > img {
+  width: 70%;
+  margin-top: 30px;
+}
+.iconBox img {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.iconBox img:first-child {
+  opacity: 0;
+}
+.txtBox p {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+}
