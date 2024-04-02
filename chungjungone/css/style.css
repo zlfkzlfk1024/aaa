@@ -164,8 +164,8 @@ header .menu > li:last-child > a::after {
 }
 .mainBox .mainImg {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
   width: 100%;
   content: url(../images/01.png);
   animation-name: bg;
