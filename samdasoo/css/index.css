@@ -178,6 +178,10 @@ header .right .menu img {
   color: #fff;
   line-height: 53px;
 }
+.section2 .bg .more:hover a,
+.section3 .bg .more:hover a {
+  text-decoration: underline;
+}
 .section3 .bg {
   position: relative;
   width: 100%;
